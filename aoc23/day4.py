@@ -25,12 +25,14 @@ def scratchcard_score(n_matches: int) -> int:
 def final_card_number(matches: list[int]) -> int:
     # Initialise the card numbers - 1 of each card:
     n_cards = len(matches)
-    card_numbers = len(n_cards) * [1]
+    card_numbers = n_cards * [1]
 
     for i in range(n_cards):
         n_matches = matches[i]
         for j in range(n_matches):
             # Add card_numbers[i] new copies of the next n_matches cards
-            card_numbers[i + 1 + j] += card_numbers[i]
+            # Check that we aren't going off the end of the cards too
+            if i + 1 + j < n_cards:
+                card_numbers[i + 1 + j] += card_numbers[i]
 
     return sum(card_numbers)
