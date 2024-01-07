@@ -1,0 +1,1153 @@
+digraph G {
+	subgraph cluster_chain_4 {
+		hb -> mj
+	}
+	hb [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		mx -> mt
+	}
+	mx -> xz
+	mx [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_1 {
+		xh -> qc
+	}
+	xh [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_1 {
+		tg -> cq
+	}
+	tg [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	kp -> xz
+	subgraph cluster_chain_3 {
+		kp -> nj
+	}
+	kp [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	mj -> jj
+	subgraph cluster_chain_4 {
+		mj -> lv
+	}
+	mj [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_1 {
+		cq -> jm
+	}
+	cq [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		mt -> sj
+	}
+	mt -> xz
+	mt [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	jj -> hb
+	jj -> lz
+	jj -> rk
+	jj -> xv
+	jj -> vj
+	jj -> vh
+	jj -> lv
+	jj [color=orange fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	rm -> bz
+	subgraph cluster_chain_1 {
+		rm -> xq
+	}
+	rm [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	hx -> bz
+	hx [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		xv -> lz
+	}
+	xv [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		xx -> kp
+	}
+	xx -> xz
+	xx [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		pt -> vx
+	}
+	pt [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	xz -> bq
+	xz -> gr
+	xz -> sj
+	xz -> rv
+	xz -> zf
+	xz [color=orange fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	vx -> gf
+	subgraph cluster_chain_2 {
+		vx -> cv
+	}
+	vx [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	xb -> xz
+	subgraph cluster_chain_3 {
+		xb -> bq
+	}
+	xb [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	xk -> gf
+	subgraph cluster_chain_2 {
+		xk -> rd
+	}
+	xk [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		lv -> zk
+	}
+	lv [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		rk -> gh
+	}
+	rk [color=orange fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	kn -> gf
+	subgraph cluster_chain_2 {
+		kn -> tz
+	}
+	kn [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		gh -> rx
+	}
+	gh [color=orange fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		sj -> vp
+	}
+	sj [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_1 {
+		jm -> vm
+	}
+	jm -> bz
+	jm [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		rr -> rv
+	}
+	rr -> xz
+	rr [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		tz -> rz
+	}
+	tz [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		gg -> kn
+	}
+	gg [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		cd -> gh
+	}
+	cd [color=orange fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_1 {
+		qc -> kh
+	}
+	qc -> bz
+	qc [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	kb -> gf
+	kb [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	vp -> xz
+	subgraph cluster_chain_3 {
+		vp -> xx
+	}
+	vp [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	fb -> bz
+	subgraph cluster_chain_1 {
+		fb -> tg
+	}
+	fb [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		rd -> cp
+	}
+	rd [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		qn -> vh
+	}
+	qn -> jj
+	qn [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	xr -> jj
+	xr [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_1 {
+		tp -> rm
+	}
+	tp -> bz
+	tp [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		cp -> gg
+	}
+	cp [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	bz -> qx
+	bz -> cq
+	bz -> xh
+	bz -> fb
+	bz -> tg
+	bz [color=orange fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		qq -> pt
+	}
+	qq -> gf
+	qq [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	xq -> bz
+	subgraph cluster_chain_1 {
+		xq -> hx
+	}
+	xq [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	gx -> jj
+	subgraph cluster_chain_4 {
+		gx -> qv
+	}
+	gx [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		bq -> rr
+	}
+	bq [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	cv -> gf
+	subgraph cluster_chain_2 {
+		cv -> kb
+	}
+	cv [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	zk -> jj
+	subgraph cluster_chain_4 {
+		zk -> xv
+	}
+	zk [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		zf -> gh
+	}
+	zf [color=orange fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		qx -> gh
+	}
+	qx [color=orange fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		vh -> gx
+	}
+	vh [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		qv -> xr
+	}
+	qv -> jj
+	qv [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		lz -> qn
+	}
+	lz [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	broadcaster -> fb
+	broadcaster -> xk
+	broadcaster -> gr
+	broadcaster -> vj
+	broadcaster [color=pink fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	nj -> xz
+	nj [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	gr -> xz
+	subgraph cluster_chain_3 {
+		gr -> xb
+	}
+	gr [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_1 {
+		kh -> tp
+	}
+	kh -> bz
+	kh [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	vm -> bz
+	subgraph cluster_chain_1 {
+		vm -> xh
+	}
+	vm [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		rz -> qq
+	}
+	rz -> gf
+	rz [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	gf -> tz
+	gf -> cd
+	gf -> rd
+	gf -> xk
+	gf -> pt
+	gf -> cp
+	gf -> gg
+	gf [color=orange fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		rv -> mx
+	}
+	rv [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		vj -> hb
+	}
+	vj -> jj
+	vj [color=lightblue fontsize=30 group=flipflop style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+	rx [color=yellow fontsize=30 style=filled]
+	subgraph cluster_chain_1 {
+		peripheries=0
+	}
+	subgraph cluster_chain_2 {
+		peripheries=0
+	}
+	subgraph cluster_chain_3 {
+		peripheries=0
+	}
+	subgraph cluster_chain_4 {
+		peripheries=0
+	}
+	subgraph cluster_rx_cluster {
+		peripheries=0
+	}
+}
